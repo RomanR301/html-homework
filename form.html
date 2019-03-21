@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <header> 
+        <a href="index.html">Back to previous page</a>
+    </header>
+    <main>
+        <h3>We are trying to make a better website for you, please give us feedback</h3>
+        <form method="POST" action="https://formspree.io/roman.sav15@gmail.com">
+            <label>
+                <span>Enter your name</span><br>
+                <input type="text" name="name" placeholder="Your name" required>
+            </label>
+            <br>
+            <label>
+                <span>Enter your email</span><br>
+                <input type="email" name="email" placeholder="Your email" required>
+            </label>
+            <br> <br>
+            <label>Gender:</label>
+            <br>
+            <label>
+                <input type="radio" name="gender"> Male
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="gender"> Female
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="gender" required> Other
+            </label>
+            <br><br>
+            <label>
+                <span>How old are you</span>
+                <select name="age">
+                    <option value="6-10">6-10</option>
+                    <option value="11-16">11-16</option>
+                    <option value="17-20">17-20</option>
+                    <option value="21-24" selected>21-24</option>
+                    <option value="25-30">25-30</option>
+                    <option value="30+">30+</option>
+                </select>
+                <br><br>
+            </label>
+                <span>Choose your favourite team (can be more than one)</span>
+                <br>
+            <label>
+                <input type="checkbox" name="XL">Excel Esports
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="SO4">FC Schalke 04
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="FNC">Fnatic
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="G2">G2 Esports
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="MSF">Misfits Gaming
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="OG">Origen
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="RGE">Rogue
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="SK">SK Gaming
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="SLY">Splyce
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="VIT">Team Vitality
+            </label>
+            <br><br>
+            <label>Describe why</label>
+            <br>
+            <textarea name="message" rows="7" cols="30"></textarea>
+            <br>
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>
